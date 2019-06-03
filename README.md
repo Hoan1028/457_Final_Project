@@ -10,8 +10,7 @@ Lastly, on the *Sign-Up* tab, users can choose to add themselves or other candid
 
 
 ## Getting Started
-If you want to run and host this app on your local machine, You can run the code and serve the app locally with VS Code so long as you have the
-the dependent packages installed. 
+If you want to run and host this app on your local machine, You can run the code and serve the app locally with VS Code so long as you have the dependent packages installed. A step by step guide to setting up the environment and running your first app can be found [here](https://github.com/Hoan1028/457_Final_Project/blob/master/IS457-L02.pptx). To run this project, simply download and copy the src folder over to the app you made in the guide, save your changes, and run the app again with the *ionic serve* command.
 
 ## Built With
 * [Firebase](https://firebase.google.com/) - Development Platform: Realtime Database used for the backend
