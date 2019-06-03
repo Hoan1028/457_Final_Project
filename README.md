@@ -1,5 +1,5 @@
 ## 457_Final_Project: Staff.Me
-Repository for the final project I did in IS457
+Repository for the final project I did in IS457 taught by CSULB Professor Jiangqing (Fisher) Wu
 
 ## Project Description
 This project is an opportunity for me to use the knowledge learned from class to build an app for a purpose of my choosing.
