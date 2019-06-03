@@ -1,0 +1,28 @@
+<ion-app>
+  <ion-menu side="start">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>
+          Staff.Me
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content color="tertiary">
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item lines="none" routerLink="/tabs/tab1" >
+            <ion-icon name="person-add" slot="start"></ion-icon>
+            <ion-label>Recruit</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+            <ion-item lines="none" routerLink="/tabs/tab2" >
+              <ion-icon name="people" slot="start"></ion-icon>
+              <ion-label>Team Members</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet main></ion-router-outlet>
+</ion-app>

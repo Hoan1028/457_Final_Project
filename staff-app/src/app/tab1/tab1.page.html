@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Recruitment Candidates
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding color="secondary">
+  <ion-segment (ionChange)="onFilterUpdate($event)">
+    <ion-segment-button value="all" checked>All Candidates</ion-segment-button>
+    <ion-segment-button value="available" checked>Available</ion-segment-button>
+  </ion-segment>
+   <ion-grid>
+     <ion-row>
+       <ion-col>
+         <ion-list *ngFor="let staff of loadedStaff; let i=index"
+         [routerLink]="['/','staffdetail',staff.id]">
+              <ion-item>
+               <ion-thumbnail slot="start">
+                 <img src={{staff.image}}>
+               </ion-thumbnail>
+               <ion-label text-wrap>
+                 <h1>{{staff.name}}</h1>
+                 <h2>{{staff.job}} {{staff.salary | currency}}</h2>
+                 <p>{{staff.desc}}</p>
+               </ion-label>
+              </ion-item>
+         </ion-list>
+       </ion-col>
+     </ion-row>
+   </ion-grid>
+</ion-content>
