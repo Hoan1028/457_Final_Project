@@ -5,7 +5,7 @@ Repository for the final project I did in IS457 taught by CSULB Professor Jiangq
 This project is an opportunity for me to use the knowledge learned from class to build an app for a purpose of my choosing.
 This app is called Staff.Me, it allows a user in a hypothetical HR department or recruitment company to look at a list of candidates,
 look at a detailed modal view of the candidate's profile and hire them to their team. 
-On the *My Team* tab, the user can review the members that they have hired and they also have the option to kick members off the team.
+On the *Your Team* tab, the user can review the members that they have hired and they also have the option to kick members off the team.
 Lastly, on the *Sign-Up* tab, users can choose to add themselves or other candidates to the database. 
 
 
