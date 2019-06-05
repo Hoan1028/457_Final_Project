@@ -22,7 +22,7 @@ Adding a new candidate to the list via *Sign-Up*.
   <img src="https://github.com/Hoan1028/457_Final_Project/blob/master/StaffMeGif2.gif">
 </p>
 
-When the user signs up a new candidate and hits submit, user data is also added to the database in real-time.
+When the user signs up a new candidate and hits submit, user data is also posted to the online database in real-time.
 <p align="center">
   <img src="https://github.com/Hoan1028/457_Final_Project/blob/master/StaffMeGif3.gif">
 </p>
