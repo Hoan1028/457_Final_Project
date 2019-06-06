@@ -1,4 +1,4 @@
-## 457_Final_Project: Staff.Me
+## Staff.Me
 Repository for the final project I did in IS457 taught by CSULB Professor Jiangqing (Fisher) Wu
 
 ## Project Description
