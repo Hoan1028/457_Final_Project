@@ -23,7 +23,6 @@ export class Tab1Page implements OnInit {
   }
   ionViewWillEnter() {
     this.loadedStaff = this.staffService.staff;
-    this.staffService.getstaffdb();
   }
   async onHireStaff(selectstaff: Staff) {
     const alert = await this.alertCtrl.create({
