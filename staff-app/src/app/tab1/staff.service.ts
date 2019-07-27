@@ -75,9 +75,20 @@ get staff() {
 constructor(private http: HttpClient) { }
 
 getstaffdb() {
-  return this.http.get('https://ionic-staffme-project.firebaseio.com/staff.json')
-  .subscribe((response) => { console.log(response); })
-;
+  this.http.get('https://ionic-staffme-project.firebaseio.com/staff.json')
+  .subscribe((response) => { 
+    for (const j in response) {
+      const newStaff = new Staff(
+        j,
+        response[j].name,
+        response[j].job,
+        response[j].desc,
+        response[j].image,
+        response[j].salary);
+        this.staffList.push(newStaff);
+    } 
+  });
+  return [...this.staffList];
 }
 
 getStaff(id: string) {
